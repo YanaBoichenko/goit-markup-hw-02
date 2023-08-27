@@ -30,7 +30,7 @@ letter-spacing: 2%;}
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
 }
 
 .header-logo {
@@ -46,7 +46,7 @@ letter-spacing: 2%;}
 color: #FFFFFF;
 font-size: 56px;
 font-weight: 700;
-letter-spacing: 2%;
+letter-spacing: 0.02em;
 line-height: 1.07;
 letter-spacing: 2%;
 text-align: center;}
@@ -54,7 +54,7 @@ text-align: center;}
 .button {font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 16px;
-letter-spacing: 4%;
+letter-spacing: 0.04em;
 line-height: 1.5;
 background-color: #4D5AE5;
 color: #FFFFFF;
@@ -65,6 +65,8 @@ cursor: pointer;
 
 .button:hover {background-color: #404BBF;}
 
+.section-title {letter-spacing: 0.02em;}
+.text {letter-spacing: 0.02em;}
 .our-team-section {background-color: #F4F4FD;
 }
 
@@ -88,7 +90,7 @@ background-color: #2E2F42;}
 
 .footer-text {
 color: #F4F4FD;
-letter-spacing: 0.02;}
+letter-spacing: 0.02em;}
 
 .footer a {text-decoration: none;}
 
