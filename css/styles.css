@@ -1,5 +1,5 @@
 body {
-    font-family: 'Helvetica Neue', 'Roboto', 'Verdana', 'Tahoma', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16 px;
     font-weight: 400;
     letter-spacing: 2%;
@@ -15,11 +15,13 @@ font-weight: 500;
 
 .nav .link:hover {color: #404BBF;}
 
-.address .link {font-style: normal;
-text-decoration: none;
+.address {font-style: normal;}
+
+.address .link {text-decoration: none;
 color:#434455;}
 
 .address .link:hover {color: #404BBF;}
+.address .link:focus {color: #404BBF;}
 
 .section {background-color: #2E2F42;}
 
@@ -31,10 +33,16 @@ letter-spacing: 2%;
 line-height: 60px;
 text-align: center;}
 
-.button {
+.button {font-style: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+letter-spacing: 0.04;
+line-height: 1.5;
 background-color: #4D5AE5;
 color: #FFFFFF;
 }
+
+.button:focus {background-color: #404BBF;}
 
 .button:hover {background-color: #404BBF;}
 
