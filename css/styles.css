@@ -1,0 +1,79 @@
+body {
+    font-family: 'Helvetica Neue', 'Roboto', 'Verdana', 'Tahoma', sans-serif;
+    font-size: 16 px;
+    font-weight: 400;
+    letter-spacing: 2%;
+    line-height: 24px;
+    background-color: #FFFFFF;
+    color: #434455;
+}
+
+.nav .link {text-decoration: none;
+color: #2E2F42;
+font-weight: 500;
+}
+
+.address .link {font-style: normal;
+text-decoration: none;
+color:#434455;}
+
+.section {background-color: #2E2F42;}
+
+.title {
+color: #FFFFFF;
+font-size: 56px;
+font-weight: 700;
+letter-spacing: 2%;
+line-height: 60px;
+text-align: center;}
+
+.button {
+background-color: #4D5AE5;
+color: #FFFFFF;
+}
+
+.button:hover {background-color: #404BBF;}
+
+.our-team-section {background-color: #F4F4FD;}
+
+.our-team-title {
+color:#2E2F42;
+font-size: 36px;
+font-weight: 700;
+letter-spacing: 2%;
+text-align: center;}
+
+ul {list-style-type: none;}
+
+.header-third {font-size: 20px;
+font-weight: 500;
+color: #2E2F42;}
+
+.footer {
+background-color: #2E2F42;}
+
+.footer-text {
+color: #F4F4FD;}
+
+.footer .link {text-decoration: none;}
+
+.studio {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: #2E2F42;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.footer-logo {font-family: 'Raleway', sans-serif;
+text-transform: uppercase;
+color: #F4F4FD;
+font-weight: 400;
+font-size: 18px;}
+
+.logo-web {
+color: #4D5AE5;
+font-family: 'Raleway', sans-serif;
+text-transform: uppercase;
+font-weight: 400;
+font-size: 18px;}
