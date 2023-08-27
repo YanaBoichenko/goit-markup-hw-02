@@ -19,9 +19,11 @@ font-weight: 500;
 
 .address {font-style: normal;}
 
-.address .link {text-decoration: none;
+.address > a {text-decoration: none;
     color:#434455;
-letter-spacing: 2%;}
+letter-spacing: 0.02em;}
+
+.address .link {letter-spacing: 0.02em;}
 
 .logo {
     color: #4D5AE5;
@@ -38,7 +40,7 @@ letter-spacing: 2%;}
 }
 
 .address .link:hover {color: #404BBF;}
-.address .link:focus {color: #404BBF;}
+.address .link:focus {color: #404bbf;}
 
 .section {background-color: #2E2F42;}
 
@@ -48,7 +50,7 @@ font-size: 56px;
 font-weight: 700;
 letter-spacing: 0.02em;
 line-height: 1.07;
-letter-spacing: 2%;
+letter-spacing: 0.02em;
 text-align: center;}
 
 .button {font-family: 'Roboto', sans-serif;
@@ -70,20 +72,23 @@ cursor: pointer;
 .our-team-section {background-color: #F4F4FD;
 }
 
-.our-team-title {
+.our-team-title { background-color: #FFFFFF;
 color:#2E2F42;
 font-size: 36px;
 font-weight: 700;
-letter-spacing: 2%;
+letter-spacing: 0.02em;
 text-transform: capitalize;
 line-height: 1.11;
 text-align: center;}
 
 ul {list-style-type: none;}
+.section-text {font-size: 16px;
+letter-spacing: 0.02em;}
 
 .header-third {font-size: 20px;
 font-weight: 500;
-color: #2E2F42;}
+color: #2E2F42;
+letter-spacing: 0.02em;}
 
 .footer {
 background-color: #2E2F42;}
