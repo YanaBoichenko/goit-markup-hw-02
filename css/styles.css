@@ -25,11 +25,9 @@ font-weight: 500;
 
 .address {font-style: normal;}
 
-.address .contacts {text-decoration: none;
+.address .link {text-decoration: none;
 color:#434455;
 letter-spacing: 0.02em;}
-
-.address .link {letter-spacing: 0.02em;}
 
 .logo {
     color: #4D5AE5;
