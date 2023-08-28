@@ -36,8 +36,10 @@ letter-spacing: 0.02em;}
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.03em;
 }
+
+.nav .logo {letter-spacing: 0.02em;}
 
 .header-logo {
     color: #2E2F42;
