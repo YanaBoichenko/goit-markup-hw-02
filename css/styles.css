@@ -13,14 +13,20 @@ color: #2E2F42;
 font-weight: 500;
 }
 
-.nav .logo {text-decoration: none;}
+.nav .link:hover {
+    color: #404BBF;
+}
 
-.nav .link:hover {color: #404BBF;}
+.nav .link:focus {
+    color: #404bbf;
+}
+
+.nav .logo {text-decoration: none;}
 
 .address {font-style: normal;}
 
 .address > a {text-decoration: none;
-    color:#434455;
+color:#434455;
 letter-spacing: 0.02em;}
 
 .address .link {letter-spacing: 0.02em;}
@@ -81,9 +87,14 @@ text-transform: capitalize;
 line-height: 1.11;
 text-align: center;}
 
+.team-group {background-color: #FFFFFF;}
+
 ul {list-style-type: none;}
 .section-text {font-size: 16px;
 letter-spacing: 0.02em;}
+
+<!-- -->
+.ul .link {letter-spacing: 0.02em;} 
 
 .header-third {font-size: 20px;
 font-weight: 500;
