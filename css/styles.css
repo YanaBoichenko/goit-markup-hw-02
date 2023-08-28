@@ -25,7 +25,7 @@ font-weight: 500;
 
 .address {font-style: normal;}
 
-.address > a {text-decoration: none;
+.address .contacts {text-decoration: none;
 color:#434455;
 letter-spacing: 0.02em;}
 
@@ -87,11 +87,13 @@ text-transform: capitalize;
 line-height: 1.11;
 text-align: center;}
 
-.team-group {background-color: #FFFFFF;}
+.team-group .images {background-color: #FFFFFF;}
 
 ul {list-style-type: none;}
 .section-text {font-size: 16px;
 letter-spacing: 0.02em;}
+
+.text {letter-spacing: 0.02em;}
 
 <!-- -->
 .ul .link {letter-spacing: 0.02em;} 
